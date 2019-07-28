@@ -21,7 +21,7 @@ import django_saml2_auth.views
 
 urlpatterns = [
     path('saml2_auth/', include('django_saml2_auth.urls')),
-    path('login/', django_saml2_auth.views.signin),
+    path('acc/login/', django_saml2_auth.views.signin),
     path('admin/', admin.site.urls),
     path('', include('azure_blob_app.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
