@@ -150,7 +150,7 @@ SAML2_AUTH = {
         'USER_GROUPS': ['users'],  # The default group name when a new user logs in
         'ACTIVE_STATUS': True,  # The default active status for new users
         'STAFF_STATUS': True,  # The staff status for new users
-        'SUPERUSER_STATUS': True,  # The superuser status for new users
+        'SUPERUSER_STATUS': False,  # The superuser status for new users
     },
     'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
         'email': 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name',
