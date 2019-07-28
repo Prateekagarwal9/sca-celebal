@@ -143,7 +143,7 @@ SAML2_AUTH = {
 
     # Optional settings below
     # Custom target redirect URL after the user get logged in. Default to /admin if not set. This setting will be overwritten if you have parameter ?next= specificed in the login URL.
-    'DEFAULT_NEXT_URL': '',
+    'DEFAULT_NEXT_URL': 'acc/',
     # Create a new Django user when a new user logs in. Defaults to True.
     'CREATE_USER': 'TRUE',
     'NEW_USER_PROFILE': {
