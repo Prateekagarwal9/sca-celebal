@@ -167,7 +167,7 @@ SAML2_AUTH = {
     #     'BEFORE_LOGIN': 'path.to.your.login.hook.method',
     # },
     # Custom URL to validate incoming SAML requests against
-    # 'ASSERTION_URL': 'https://mysite.com',
+    'ASSERTION_URL': 'https://ui-supplychain.azurewebsites.net/',
     # Populates the Issuer element in authn request
     'ENTITY_ID': 'eca15dd7-b220-499a-bd28-4618b8512e09',
     # Sets the Format property of authn NameIDPolicy element
